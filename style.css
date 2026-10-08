@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #eef4f8;
+  color: #1f2937;
+}
+
+.card {
+  width: min(90%, 440px);
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.card > p {
+  text-align: center;
+  color: #5f6b7a;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 11px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  margin-top: 14px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#message {
+  min-height: 24px;
+  margin-top: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#taskList {
+  padding-left: 22px;
+}
+
+#taskList li {
+  margin: 8px 0;
+}

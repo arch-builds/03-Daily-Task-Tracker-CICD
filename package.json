@@ -1,0 +1,8 @@
+{
+  "name": "03-daily-task-tracker-cicd",
+  "version": "1.0.0",
+  "description": "Daily Task Tracker assignment demonstrating Git, GitHub, CI, CD, and GitHub Pages.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

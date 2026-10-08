@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Daily Task Tracker</h1>
+    <p>Add a task to your daily list.</p>
+
+    <form id="taskForm">
+      <label for="taskInput">Task</label>
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button type="submit">Add Task</button>
+    </form>
+
+    <p id="message" aria-live="polite"></p>
+
+    <section>
+      <h2>Tasks</h2>
+      <ul id="taskList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
