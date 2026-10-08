@@ -19,6 +19,7 @@ if (typeof document !== "undefined") {
   const taskInput = document.getElementById("taskInput");
   const message = document.getElementById("message");
   const taskList = document.getElementById("taskList");
+  const taskCount = document.getElementById("taskCount");
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -33,6 +34,7 @@ if (typeof document !== "undefined") {
     const listItem = document.createElement("li");
     listItem.textContent = result.task;
     taskList.appendChild(listItem);
+    taskCount.textContent = `Task Count: ${taskList.children.length}`;
 
     taskInput.value = "";
     message.textContent = "Task added.";
